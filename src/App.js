@@ -11,6 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <AmplifySignOut />
+        
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -22,9 +23,10 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Dreamy Enterprise Devilery System
           </a>
         </header>
+
       </div>
     );
   }
